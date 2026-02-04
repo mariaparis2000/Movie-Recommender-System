@@ -21,9 +21,8 @@ The project uses a dataset of the **Top 1000 IMDB Movies**. The core logic follo
 Pre-requisites: [Pandas](https://pandas.pydata.org/), Python 3.13
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt ```
 
-Run
 To get recommendations, simply run the function in your notebook or use the following command structure:
 
 python main.py --title "Inception"
