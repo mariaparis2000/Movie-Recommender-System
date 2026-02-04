@@ -1,4 +1,4 @@
-# 🎬 Content-Based Movie Recommender
+# 🎬 Content-based Movie Recommender
 
 ## Project overview
 As part of my Master’s in Business Analytics, I developed this movie recommendation engine. The goal is to solve the "choice paralysis" in streaming platforms by suggesting movies based on the user's personal tastes, focusing on director, genre, and lead actors.
@@ -11,7 +11,7 @@ The project uses a dataset of the **Top 1000 IMDB Movies**. The core logic follo
 3.  **Vectorization:** Used `CountVectorizer` to transform text data into a mathematical matrix.
 4.  **Similarity Metric:** Applied **Cosine Similarity** to calculate the distance between movie vectors.
 
-## Tech stack
+## Technical toolkit
 * **Language:** Python 3.13
 * **Environment:** VS Code / Jupyter Notebooks
 * **Libraries:** Pandas, Scikit-Learn (ML), NumPy
