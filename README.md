@@ -17,13 +17,13 @@ The project uses a dataset of the **Top 1000 IMDB Movies**. The core logic follo
 * **Libraries:** Pandas, Scikit-Learn (ML), NumPy
 
 ## 🚀 How to Run
-1. Clone the repository:
-   `git clone https://github.com/mariaparis2000/Movie-Recommender-System.git`
-2. Install dependencies:
-   `pip install -r requirements.txt`
-3. Open `main.ipynb` and run all cells.
 
-## 📊 Future Improvements
-* Implement a **Streamlit** web interface for better user interaction.
-* Incorporate **User Ratings** to create a Collaborative Filtering model.
-* Integrate with the **TMDB API** to fetch real-time movie posters.
+Pre-requisites: [Pandas](https://pandas.pydata.org/), Python 3.13
+
+```bash
+pip install -r requirements.txt
+
+Run
+To get recommendations, simply run the function in your notebook or use the following command structure:
+
+python main.py --title "Inception"
