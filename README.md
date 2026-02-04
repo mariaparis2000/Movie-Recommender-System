@@ -16,13 +16,15 @@ The project uses a dataset of the **Top 1000 IMDB Movies**. The core logic follo
 * **Environment:** VS Code / Jupyter Notebooks
 * **Libraries:** Pandas, Scikit-Learn (ML), NumPy
 
-## 🚀 How to Run
+🚀 How to Run
 
-Pre-requisites: [Pandas](https://pandas.pydata.org/), Python 3.13
+Pre-requisites: Pandas, Python 3.13
 
-```bash
-pip install -r requirements.txt ```
+```bash pip install -r requirements.txt ```
 
-To get recommendations, simply run the function in your notebook or use the following command structure:
+To get recommendations, open main.ipynb and call the function:
 
-python main.py --title "Inception"
+```python recommend_movie("Inception") ```
+
+
+
